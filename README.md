@@ -18,9 +18,8 @@ simple game.
 
 # How to start the game
 
-Simply type `python story-teller.py`
-or if you have installed Python2 you may have to start the game with
-`python3 story-teller.py`
+Simply type `python story-teller.py` or if you have also Python2
+you may have to start the game with `python3 story-teller.py`
 
 # Tutorial
 
@@ -32,7 +31,6 @@ First you need to import some classes to get proper functionality to the program
 ```python
 import random
 import time
-import sys
 ```
 
 Second you can introduce the array witch contains the numbers corresponding each
