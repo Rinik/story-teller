@@ -5,7 +5,7 @@ import random
 import time
 import sys
 
-# Created Array of dice's number equals one side of the dice. So 1-6 is the first dice, 7-12 second and so one.
+# Created Array of dice's number equals one side of the dice. So 1-6 is the first dice, 7-12 second and so on.
 dices = {1: "Ladders", 2: "Submarine", 3: "Question mark", 4: "World", 5: "Food", 6: "Scale of Justice", 
         7: "Snake", 8: "Necklace", 9: "Fire", 10: "Altar", 11: "Rainbow", 12: "Theater",
         13: "Clock/Time", 14: "Medicine", 15: "Mountains", 16: "Backpack", 17: "Looking Glass", 18: "Bridge",
