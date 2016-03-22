@@ -28,7 +28,7 @@ def game():
   dice_three = random.randint(13,18)
   dice_four = random.randint(19,24)
   dice_five = random.randint(25,30)
-  dice_six = random.randint(31,26)
+  dice_six = random.randint(31,36)
   # Add dice's to array and shuffle the dice's in that array
   all_dices = [dice_one, dice_two, dice_three, dice_four, dice_five, dice_six]
   random.shuffle(all_dices)
@@ -42,29 +42,31 @@ def choose():
     player = input("How many dice you would like to throw? 1-6: ")
     try:
       player = int(player)
-        if player in range(1,6):
-          return player
-        except ValueError:
-          pass
-        print("Oops! Try again. Please enter number between 1 and 6.")
+      if player in range(1,7):
+        return player
+      except ValueError:
+        pass
+      print("Oops! Try again. Please enter number between 1 and 6.")
 
 # Result function get's the values from the game function and returns the result
 def result(player, all_dices)
-  print("Throwing...\n")
+  print("Throwing ...\n")
   time.sleep(1)
-  print(".... the dice(s)\n")
+  print("... the dice(s)\n")
   time.sleep(1.5)
   print("The dice(s) are: \n")
-  for dice_number in all_dices[:player]:
-    print(dices[dice_number]+"\n")
+  # For loop that show's just the first dice's to the chosen number of dices (player) = choise
+  # if you want to show the rest of the dice's just do another for loop and change the [:player] to [player:]
+  for i in all_dices[:player]:
+    print(dices[i]+"\n")
 
 # Again function is simple asking funtion to play again
 def again():
   answer = input("Would you like to throw again? y/n: ")
-    if answer in("y", "Y", "yes", "Yes", "YES")
-      return answer
-    else:
-      print("Thank you for playin! See you next time.")
+  if answer in("y", "Y", "yes", "Yes", "YES"):
+    return answer
+  else:
+    print("Thank you for playin! See you next time.")
 
 # if the program is started straight from the file, then run the game.
 if __name__ == "__main__":
