@@ -10,3 +10,19 @@ word's that the game give's you.
 
 This is also simple tutorial to start learning python and create a
 simple game.
+
+# Requirement
+
+Python 3.4
+
+# How to start the game
+
+python story-teller.py
+
+# Tutorial
+
+...
+
+# License
+
+MIT
