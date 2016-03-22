@@ -45,12 +45,12 @@ def choose():
       player = int(player)
       if player in range(1,7):
         return player
-      except ValueError:
-        pass
-      print("Oops! Try again. Please enter number between 1 and 6.")
+    except ValueError:
+      pass
+    print("Oops! Try again. Please enter number between 1 and 6.")
 
 # Result function get's the values from the game function and returns the result
-def result(player, all_dices)
+def result(player, all_dices):
   print("Throwing ...\n")
   time.sleep(1)
   print("... the dice(s)\n")
