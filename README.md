@@ -4,7 +4,7 @@ Story telling dice game written in Python.
 
 # Introduction
 
-Simple Storyteller dice game that get the idea from Rory's Story Cubes.
+Simple Storyteller dice game that get the idea from [Rory's Story Cubes](https://www.storycubes.com/ "Rory's Story Cubes").
 You simply choose number of dice's to throw and tell a story and use the
 word's that the game give's you.
 
