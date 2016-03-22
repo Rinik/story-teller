@@ -3,6 +3,7 @@
 # import needed classes, random to scramble the dices, time to add waiting time when the dice's are rolled.
 import random
 import time
+import sys
 
 # Created Array of dice's number equals one side of the dice. So 1-6 is the first dice, 7-12 second and so one.
 dices = {1: "Ladders", 2: "Submarine", 3: "Question mark", 4: "World", 5: "Food", 6: "Scale of Justice", 
